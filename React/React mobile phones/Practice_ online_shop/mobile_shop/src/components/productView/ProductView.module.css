@@ -1,0 +1,37 @@
+.productView {
+    display: flex;
+    margin-top: 30px;
+}
+
+.productImg {
+    _flex-basis: 100%;
+    margin-right: 80px;
+}
+
+.productImg img {
+    width: 300px;
+}
+
+.productDetails h2 {
+    color: orange;
+}
+
+.productView button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: white;
+    background-color: orange;
+    font-family: inherit;
+    border: 6px solid rgba(255, 166, 0, 0.6);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.productView button:hover {
+    background-color: rgba(255, 166, 0, 0.3);
+}
+
+.productView button:focus {
+    outline: none;
+}

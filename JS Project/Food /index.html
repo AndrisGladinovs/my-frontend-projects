@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                    <img src="icons/veg.svg" alt="pepper">
+                <h2>it's delicious</h2>
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__link">Services</a>
+                <a href="#" class="header__link">About</a>
+            </nav>
+        </div>
+        <div class="header__right-block">
+            <button class="btn" data-modal>Contact Us</button>
+        </div>
+    </header>
+
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        The "Fitness" menu is a new approach to cooking: more fresh fruits and vegetables. For people who are interested in sports; active and healthy. This is a brand new product with an optimal price and high quality!
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <div class="tabcontent__descr">
+                        Premium Menu - we use not only beautiful packaging design, but also high-quality execution of dishes. Red fish, seafood, fruit - a restaurant menu without going to the restaurant!                                     
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/post.jpg" alt="post">
+                    <div class="tabcontent__descr">
+                        Our special "Lenten Menu" is a careful selection of ingredients: no animal products. Total harmony with ourselves and nature in every element! 
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/hamburger.jpg" alt="hamburger">
+                    <div class="tabcontent__descr">
+                        A Balanced menu means that your diet meets all scientific guidelines. We carefully calculate your calorie, protein, fat and carbohydrate needs and create the best meals for you.
+                    </div>
+                </div>
+                <div class="tabheader">
+                    <h3>Choose your eating style</h3>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Fitness</div>
+                        <div class="tabheader__item">Premium</div>
+                        <div class="tabheader__item">Vegetarian</div>
+                        <div class="tabheader__item">Balanced</div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview__life">Live your life to the fullest!
+            </div>
+             <button class="btn" data-modal = 'bottom'>Contact Us</button>
+           
+            
+        </div>
+        <div class="divider"></div>
+
+        <div class="promotion">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="promotion__text">
+                <div class="title">Special offer for new customers!</div>
+                <div class="promotion__descr">
+                    Everyone who orders a meal delivery for a week will receive a discount in the amount of <span>20%!</span>
+                    <br>
+                    The action will end on May 20 at 00:00
+                </div>
+            </div>
+            <div class="promotion__timer">
+                <div class="title">The offer ends in:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days"></span>
+                        days
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours"></span>
+                        hours
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes"></span>
+                        minutes
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds"></span>
+                        seconds
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="menu">
+        <h2 class="title">Daily menu</h2>
+
+        <div class="menu__field">
+            <div class="container">
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="subtitle">Social media</div>
+                <a href="#" class="link">instagram</a>
+                <a href="#" class="link">facebook</a>
+            </div>
+            <div class="pepper">
+                <img src="icons/veg.svg" alt="pepper">
+            </div>
+            <div class="call">
+                <div class="subtitle">Call us</div>
+                <a href="#" class="link">+380678341034</a>
+                <a href="#" class="link">+380500941356</a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close" data-close >&times;</div>
+                    <div class="modal__title">We will get in touch with you as soon as possible!</div>
+                    <input required placeholder="your name" name="name" type="text" class="modal__input">
+                    <input required placeholder="your phone number" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Call me back</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="./js/cards.js"></script>
+</body>
+</html>
